@@ -1,0 +1,89 @@
+body {
+    background-color: pink;
+    font-family: Arial;
+    margin: 0;
+}
+
+nav {
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: deeppink;
+}
+
+h2 {
+    color: hotpink;
+}
+
+p {
+    color: black;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 45%;
+    max-height: 300px;
+    float: center;
+    margin: 10px;
+}
+
+section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+button {
+    background-color: hotpink;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+button:hover {
+    background-color: deeppink;
+}
+
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+section:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
